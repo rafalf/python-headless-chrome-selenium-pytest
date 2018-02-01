@@ -15,4 +15,9 @@ RUN unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 ENV DISPLAY=:99
 
 # install selenium
-RUN pip install -r requirements.txt
+RUN pip install pytest
+RUN pip install - U selenium
+RUN pip install requests
+RUN pip install pytest-rerunfailures
+RUN pip install pytest-xdist
+RUN pip install pyyaml
