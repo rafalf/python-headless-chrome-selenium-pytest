@@ -9,10 +9,13 @@
   d = webdriver.Chrome(chrome_options=chrome_options)
 ```
 
-### have installed the following test packages:
+### Have installed the following test packages:
 * pytest
 * selenium
 * requests
 * pytest-rerunfailures
 * pytest-xdist
 * pyyaml
+* requests_oauthlib
+* jsonschema
+
