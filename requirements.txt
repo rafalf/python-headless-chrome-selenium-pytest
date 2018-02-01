@@ -4,3 +4,5 @@ requests
 pytest-rerunfailures
 pytest-xdist
 pyyaml
+requests_oauthlib
+jsonschema
