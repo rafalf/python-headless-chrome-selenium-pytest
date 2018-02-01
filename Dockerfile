@@ -17,7 +17,9 @@ ENV DISPLAY=:99
 # install selenium
 RUN pip install pytest
 RUN pip install selenium
-RUN pip install requests
+RUN pip install requests requests_oauthlib
 RUN pip install pytest-rerunfailures
 RUN pip install pytest-xdist
 RUN pip install pyyaml
+RUN pip install jsonschema
+
